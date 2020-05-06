@@ -1,17 +1,3 @@
-# vue-hot-key
----
-
-vue-hot-key 是一款基于vue2+的快捷键自定义指令
-
-## 安装
-
-```
-npm install --save vue-hot-key
-```
-
-## 使用
-
-```html
 <template>
   <div id="app" v-hotkey="hotKeyMap">
     请尝试同时按下 alt+s 键 <br><br>
@@ -52,4 +38,14 @@ export default class App extends Vue {
   }
 }
 </script>
-```
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>

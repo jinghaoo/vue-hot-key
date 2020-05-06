@@ -8372,6 +8372,16 @@ vue-eslint-parser@^7.0.0:
     esquery "^1.0.1"
     lodash "^4.17.15"
 
+vue-hot-key@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue-hot-key/-/vue-hot-key-0.1.1.tgz#fd961da3afde06f5466170adbce1262212feaaa2"
+  integrity sha512-OrYKErDNpZYOgqL9BHuZg2vzLEzMtm8NHij8CYZji+O556aKwwGfY3GTuLkw/9qhYI2vuSTmQmHgMIBccOIdtg==
+  dependencies:
+    core-js "^3.6.4"
+    vue "^2.6.11"
+    vue-class-component "^7.2.3"
+    vue-property-decorator "^8.4.1"
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "http://192.168.14.11:8888/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -8394,11 +8404,6 @@ vue-property-decorator@^8.4.1:
   integrity sha512-IqbARlvgPE2pzKfbecKxsu2yEH0Wv7hfHR6m4eZA3LTnNw9hveAX77vDfLFyTeMISS5N7Kucp/xRSHjcQ6bAfQ==
   dependencies:
     vue-class-component "^7.1.0"
-
-vue-router@^3.1.6:
-  version "3.1.6"
-  resolved "http://192.168.14.11:8888/vue-router/-/vue-router-3.1.6.tgz#45f5a3a3843e31702c061dd829393554e4328f89"
-  integrity sha512-GYhn2ynaZlysZMkFE5oCHRUTqE8BWs/a9YbKpNLi0i7xD6KG1EzDqpHQmv1F5gXjr8kL5iIVS8EOtRaVUEXTqA==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
@@ -8425,11 +8430,6 @@ vue@^2.6.11:
   version "2.6.11"
   resolved "http://192.168.14.11:8888/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
-
-vuex@^3.1.3:
-  version "3.3.0"
-  resolved "http://192.168.14.11:8888/vuex/-/vuex-3.3.0.tgz#665b4630ea1347317139fcc5cb495aab3ec5e513"
-  integrity sha512-1MfcBt+YFd20DPwKe0ThhYm1UEXZya4gVKUvCy7AtS11YAOUR+9a6u4fsv1Rr6ePZCDNxW/M1zuIaswp6nNv8Q==
 
 watchpack@^1.6.1:
   version "1.6.1"
